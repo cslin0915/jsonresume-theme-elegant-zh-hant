@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-elegant-zh-hant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fork of Elegant theme for jsonresume in Chinese",
   "main": "index.js",
   "scripts": {
