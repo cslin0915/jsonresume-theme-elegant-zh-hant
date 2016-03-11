@@ -29,15 +29,15 @@ function capitalize(str) {
 
 function getFloatingNavItems(resume) {
     var floating_nav_items = [
-        {label: 'About', target: 'about', icon: 'board', requires: 'basics.summary'},
-        {label: 'Work Experience', target: 'work-experience', icon: 'office', requires: 'work'},
-        {label: 'Skills', target: 'skills', icon: 'tools', requires: 'skills'},
-        {label: 'Education', target: 'education', icon: 'graduation-cap', requires: 'education'},
-        {label: 'Awards', target: 'awards', icon: 'trophy', requires: 'awards'},
-        {label: 'Volunteer Work', target: 'volunteer-work', icon: 'child', requires: 'volunteer'},
-        {label: 'Publications', target: 'publications', icon: 'newspaper', requires: 'publications'},
-        {label: 'Interests', target: 'interests', icon: 'heart', requires: 'interests'},
-        {label: 'References', target: 'references', icon: 'thumbs-up', requires: 'references'}
+        {label: '自我介紹', target: 'about', icon: 'board', requires: 'basics.summary'},
+        {label: '工作經驗', target: 'work-experience', icon: 'office', requires: 'work'},
+        {label: '技能專長', target: 'skills', icon: 'tools', requires: 'skills'},
+        {label: '教育背景', target: 'education', icon: 'graduation-cap', requires: 'education'},
+        {label: '得獎紀錄', target: 'awards', icon: 'trophy', requires: 'awards'},
+        {label: '志工服務', target: 'volunteer-work', icon: 'child', requires: 'volunteer'},
+        {label: '出版刊物', target: 'publications', icon: 'newspaper', requires: 'publications'},
+        {label: '興趣愛好', target: 'interests', icon: 'heart', requires: 'interests'},
+        {label: '自由推薦', target: 'references', icon: 'thumbs-up', requires: 'references'}
     ];
 
     return _(floating_nav_items).filter(function(item) {
