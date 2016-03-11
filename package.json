@@ -1,26 +1,26 @@
 {
-  "name": "jsonresume-theme-elegant",
-  "version": "1.1.9",
-  "description": "Elegant theme for jsonresume",
+  "name": "jsonresume-theme-elegant-zh-hant",
+  "version": "1.0.0",
+  "description": "Fork of Elegant theme for jsonresume in Chinese",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mudassir0909/jsonresume-theme-elegant.git"
+    "url": "https://github.com/cslin0915/jsonresume-theme-elegant-zh-hant"
   },
   "keywords": [
     "jsonresume",
     "theme",
-    "elegant"
+    "elegant_fork"
   ],
-  "author": "Mudassir Ali <mudassir.dev@gmail.com>",
+  "author": "Chih-Sheng Lin <note0972@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mudassir0909/jsonresume-theme-elegant/issues"
+    "url": "https://github.com/cslin0915/jsonresume-theme-elegant-zh-hant/issues"
   },
-  "homepage": "https://github.com/mudassir0909/jsonresume-theme-elegant",
+  "homepage": "https://github.com/cslin0915/jsonresume-theme-elegant-zh-hant",
   "dependencies": {
     "gravatar": "^1.0.6",
     "handlebars": "^2.0.0-alpha.4",
