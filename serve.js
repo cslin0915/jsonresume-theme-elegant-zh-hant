@@ -12,7 +12,7 @@ var theme = require("./index.js");
 var path = require("path");
 var fs = require("fs");
 
-var port = 8888;
+var port = 8080;
 http.createServer(function(req, res) {
     var picture = resume.basics.picture.replace(/^\//, "");
     if (picture && req.url.replace(/^\//, "") === picture.replace(/^.\//, "")) {
@@ -39,7 +39,7 @@ http.createServer(function(req, res) {
     }
 }).listen(port);
 
-console.log("Preview: http://localhost:8888/");
+console.log("Preview: http://localhost:8080/");
 console.log("Serving..");
 
 function render() {

@@ -2,10 +2,10 @@ unless _.isEmpty(resume.education)
   .detail#education
     .icon
       i.fs-lg.icon-graduation-cap
-      span.mobile-title Education
+      span.mobile-title 學歷
 
     .info
-      h4.title.text-uppercase Education
+      h4.title.text-uppercase 學歷
 
       .content
         ul.list-unstyled
@@ -16,7 +16,7 @@ unless _.isEmpty(resume.education)
                   if !education_info.endDate
                     i.icon-circle.current-event(
                       rel="tooltip",
-                      title="Currently Pursuing",
+                      title="目前正就讀",
                       data-placement="left"
                     )
 
@@ -26,8 +26,8 @@ unless _.isEmpty(resume.education)
 
                 p.text-muted
                   small
-                    |#{education_info.startDate} - #{education_info.endDate || 'Present'}
-                i= education_info.gpa
+                    |#{education_info.startDate} - #{education_info.endDate || '現在'}
+                i= 'GPA: ' + education_info.gpa
 
                 unless _.isEmpty(education_info.courses)
                   .space-top.labels

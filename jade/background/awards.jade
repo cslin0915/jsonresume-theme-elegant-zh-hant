@@ -2,10 +2,10 @@ unless _.isEmpty(resume.awards)
   .detail#awards
     .icon
       i.fs-lg.icon-trophy
-      span.mobile-title Awards
+      span.mobile-title 得獎紀錄
 
     .info
-      h4.title.text-uppercase Awards
+      h4.title.text-uppercase 得獎紀錄
 
       .content
         ul.list-unstyled
@@ -18,6 +18,6 @@ unless _.isEmpty(resume.awards)
 
                 p.text-muted
                   small
-                    |Awarded on: #{award.date}
+                    |得獎於: #{award.date}
 
                 p.clear-margin= award.summary
